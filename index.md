@@ -1,37 +1,236 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <title>Mentoring - Kelompok 18</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-You can use the [editor on GitHub](https://github.com/sonda-afk/sonda-afk.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area white-header">
+      <div class="main_menu">
+        <div class="search_input" id="search_input_box">
+          <div class="container">
+            <form class="d-flex justify-content-between" method="" action="">
+              <input
+                type="text"
+                class="form-control"
+                id="search_input"
+                placeholder="Search Here"
+              />
+              <button type="submit" class="btn"></button>
+              <span
+                class="ti-close"
+                id="close_search"
+                title="Close Search"
+              ></span>
+            </form>
+          </div>
+        </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand" href="index.html">
+              <img class="logo-2" src="img/logo2.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
 
-### Markdown
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+      <div class="banner_inner d-flex align-items-center">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="banner_content text-center">
+                <h2>Motivasi dan Strategi Belajar</h2>
+                <h3>Materi ke-2</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================End Home Banner Area =================-->
 
-```markdown
-Syntax highlighted code block
+    <!--================Blog Area =================-->
+    <section class="blog_area single-post-area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 posts-list">
+                    <div class="single-post row">
+                        <div class="col-lg-12">
+                            <div class="feature-img">
+                                <img class="img-fluid" src="img/blog/feature-img1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-3  col-md-3">
+                            <div class="blog_info text-right">
+                                <div class="post_tag">
+                                    <a href="#">Education,</a>
+                                    <a class="active" href="#">Motivation,</a>
+                                    <a href="#">Study,</a>
+                                    <a href="#">University</a>
+                                </div>
+                                <ul class="blog_meta list">
+                                    <li><a href="#">Sondari<i class="ti-user"></i></a></li>
+                                    <li><a href="#">2 Oct, 2020<i class="ti-calendar"></i></a></li>
+                                </ul>
+                                <ul class="social-links">
+                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ti-twitter"></i></a></li>
+                                    <li><a href="#"><i class="ti-github"></i></a></li>
+                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 blog_details">
+                            <h2>MOTIVASI DAN STRATEGI BELAJAR</h2>
+                            <p class="excert">
+                                Motivasi berasal dari kata motif yang dapat diartikan sebagai daya penggerak yang ada di dalam diri 
+                                seseorang untuk melakukan aktivitas – aktivitas tertentu demi tercapainya suatu tujuan. 
+                                Bahkan motif dapat diartikan sebagai suatu kondisi intern (kesiap siagaan). 
+                                Perubahan energi dalam diri seseorang yang ditandai dengan munculnya feeling dan didahului 
+                                dengan stimulus untuk mencapai adanya tujuan. Dalam kegiatan belajar, 
+                                motivasi dapat dikatakan sebagai keseluruhan daya penggerak di dalam diri siswa 
+                                yang menimbulkan, menjamin kelangsungan dan memberikan arah kegiatan belajar, 
+                                sehingga diharapkan tujuan dapat tercapai. Dalam kegiatan belajar, motivasi sangat diperlukan, 
+                                sebab seseorang yang tidak mempunyai motivasi dalam belajar, tidak akan mungkin melakukan aktivitas belajar.
+                            </p>
+                            <p>
+                                Menurut Clifford, Mc. Donald (dalam Oemar hamalik, 2002: 173-174) mengungkapkan bahwa “motivasi itu mengandung tiga unsur yang saling berkaitan yaitu perubahan energi, timbulnya afektif dan reaksi-reaksi untuk mencapai tujuan”.</p>
+                            <h4>Berdasarkan pendapat Mc. Donald ini, maka pengertian motivasi dapat dijelaskan sebagai berikut :</h4>
+                            </p>
+                            <p>1. Motivasi dimulai dari adanya perubahan energi dalam pribadi. Perubahan – perubahan dalam motivasi timbul dari perubahan – perubahan tertentu didalam sistem neurofisiologis dalam diri manusia.</p>
+                            <p>2. Motivasi ditandai dengan timbulnya (affective arousla). Awalnya merupakan ketegangan psikologis, lalu merupakan suasana emosi. Suasana emosi ini menimnbulkan kelakuan yang bermotif. Perubahan ini mungkin disadari mungkin juga tidak. Misalnya seseorang terlibat dalam suatu dalam suatu diskusi, karena dia merasa tertarik pada masalah atau topik yang dibicarakan, dia akan berbicara dengan suara yang cepat dan lancer.</p>
+                            <p>3. Motivasi ditandai oleh reaksi – reaksi untuk mencapai tujuan. Pribadi yang bermotivasi mengadakan respon – respon yang tertuju kea rah suatu tujuan. Respon – respon ini berfungsi mengurangi ketegangan yang disebabkan oleh perubahan energi dalam dirinya. Setiap respon merupakan suatu langkah kearah pencapain tujuan. Misalnya seorang mahasiswa ingin mendapatkan IP yang baik, makai a akan belajar dengan keras, membaca buku, memahami materi kuliah dengan baik dan lain sebagainya.</p>
+                            <h4>Proses motivasi belajar menurut Nana Syaodih Sukmadinata (2007:382) meliputi tiga langkah yaitu :</h4>
+                            <p>1. Adanya suatu kondisi yang terbentuk dari tenaga-tenaga pendorong belajar (desakan, kebutuhan, dan keinginan belajar) yang menimbulkan suatu ketegangan dalam diri mahasiswa.</p>
+                            <p>2. Belangsungnya kegiatan atau perilaku belajar yang diarahkan pada pencapaian tujuan belajar akan mengurangi ketegangan.</p>
+                            <p>3. Pencapaian tujuan belajar dan berkurangnya atau hilangnya ketegangan didalam diri mahasiswa</p>
+                            <p>Motivasi memegang peranan yang sangat penting dalam kegiatan belajar di perguruan tinggi dan motivasi dipengaruhi oleh tujuan yang akan dicapai dari proses belajar. Maka semakin tinggi tujuan belajar maka akan semakin kuat pula kegiatan belajarnya.</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="quotes">
+                              <h3>Jenis – jenis Motivasi</h3>
+                              <p>Terdapat dua jenis motivasi, motivasi yang berasal dari dalam diri sendiri dan juga motivasi yang berasal dari luar diri.</p>
+                              <h4>1. Motivasi Intrinsik</h4>
+                              <p>Motivasi Intrinsik adalah motivasi yang berasal dari dalam diri sendiri yang dapat
+                                mendorongnya melakukan tindakan belajar. Didalam proses belajar siswa yang termotivasi secara intrinsic dapat terlihat dari pribadi nya yang tekun dalam mengerjakan tugasnya karena merasa butuh dan ingin mencapai tujuan belajar yang sebenarnya, bukan karena keinginan mendapatkan pujian atau hadiah. Jadi, motivasi intrinsik ini adalah jenis motivasi yang datangnya dari dalam diri sendiri tanpa adanya paksaan dorongan orang lain ataupun dari luar diri tetapi atas dasar kemauan dan kesadaran diri sendiri.</p>
+                                <h4>2. Motivasi Ekstrinsik</h4>
+                                <p>Motivasi Ekstrinsik merupakan jenis motivasi yang timbul sebagai akibat pengaruh dari
+                                  luar individu, apakah karena adanya ajakan, suruhan atau paksaan dari orang lain sehingga membuat seseorang mau melakukan sesuatu. Dikatakan masuk ke motivasi ekstrinsik bila menempatkan tujuan belajarnya diluar faktor – faktor situasi belajar. Sebagai contoh mahasiswa belajar karena hendak mendapatkan IP tinggi, gelar sarjana, kehormatan, pujian dan sebagainya.</p>
+                                
+                                </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="img-fluid" src="img/satu.jpg" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <img class="img-fluid" src="img/dua.png" alt="">
+                                </div>
+                                <div class="col-lg-12 mt-25">
+                                  <h3>Faktor – Faktor Yang Mempengaruhi Motivasi</h3>
+                                  <p>Ada beberapa faktor yang mempengaruhi motivasi belajar (Max Darsono dkk 2000:34) antara lain :</p>
+                                  <h4>1. Tujuan</h4>
+                                  <p>Tujuan merupakan suatu target yang ingin dicapai. Penentuan target ini tidak sama bagi setiap individu. Target diartikan sebagai tujuan yang ditetapkan dalam suatu kegiatan yang mengandung makna bagi individu/mahasiswa.</p>
+                                  <h4>2. Kemampuan</h4>
+                                  <p>Dalam belajar dibutuhkan kemampuan. Kemampuan ini meliputi beberapa aspek psikis yang terdapat dalam diri mahasiswa, misalnya kecerdasan, pengamatan, perhatian dan daya piker Analisa.</p>
+                                  <h4>3. Kondisi</h4>
+                                  <p>Kondisi meliputi dua hal, kondisi fisik atau Kesehatan dan juga kondisi psikologis misalnya emosi. Kondisi ini akan mempengaruhi individu dalam proses belajar. Sebagai contoh kondisi fisik dapat mempengaruhi motivasi belajarnya adalah Ketika individu tersebut sedang dalam keadaan kurang sehat, motivasi belajarnya akan berbeda sewaktu dalam keadaan sehat. Begitu juga dengan kondisi psikis dimana Ketika seseorang sedang mengalami emosi sedih, akan berdampak buruk jika individu tersebut tidak bisa mengendalikan emosi nya secara baik, individu tersebut cenderung akan murung dan larut dalam emosinya dibandingkan dengan mengerjakan tugas nya atau belajar.</p>
+                                  <h4>4. Lingkungan sekitar</h4>
+                                  <p>Lingkungan sekitar atau sebagai faktor eksternal seperti keluarga, teman, lingkungan kampus dan juga lingkungan masyarakat. Lingkungan sosial juga berpengaruh, hal ini bisa diamati dari lingkungan sosial yang ada disekitar individu seperti teman , lingkungan keluarganya, atau teman sekelasnya. Lingkungan sosial yang tidak menunjukan kebiasaan belajar dan mendukung kegiatan belajar akan berpengaruh terhadap rendahnya motivasi belajar, tetapi jika sebaliknya akan berdampak pada meningkatkan motivasi belajar.</p>
+                                  <h4>5. Unsur – unsur dinamis</h4>
+                                  <p>Unsur – unsur ini adalah unsur – unsur yang keberadaanya tidak stabil dalam proses belajar, kadang – kadang kuat, kadang – kadang lemah dan bahkan tidak ada sama sekali. Sebagai contoh emosi, gairah belajar, situasi belajar, dan situasi dalam keluarga.</p>
 
-# Header 1
-## Header 2
-### Header 3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-area">
+                    <div class="comment-form">
+                        <h4>Sudah beres membuat resume-nya?</h4>
+                        <form>
+                            <a href="https://drive.google.com/drive/folders/1FjRtoQtppmb9vlcTKiexFYUjkX7LjudV?usp=sharing" class="primary-btn">Upload Yuk!</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Blog Area =================-->
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sonda-afk/sonda-afk.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+            <div class="container">
+              <div class="row footer-bottom d-flex justify-content-between">
+                <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="" target="_blank">Mentor 18</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                <div class="col-lg-4 col-sm-12 footer-social">
+                  <a href="#"><i class="ti-facebook"></i></a>
+                  <a href="#"><i class="ti-twitter"></i></a>
+                  <a href="#"><i class="ti-dribbble"></i></a>
+                  <a href="#"><i class="ti-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!--================ End footer Area  =================-->
+      
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="js/jquery-3.2.1.min.js"></script>
+          <script src="js/popper.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+          <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+          <script src="js/owl-carousel-thumb.min.js"></script>
+          <script src="js/jquery.ajaxchimp.min.js"></script>
+          <script src="js/mail-script.js"></script>
+          <!--gmaps Js-->
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+          <script src="js/gmaps.min.js"></script>
+          <script src="js/theme.js"></script>
+        </body>
+      </html>
